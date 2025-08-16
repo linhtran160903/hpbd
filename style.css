@@ -498,10 +498,24 @@ h1 {
 
   .avatar__title {
     font-size: 1.2em;
+    margin-right: 300px;
   }
 
   h1 {
     font-size: 1.8em;
     top: 80px;
+  }
+   .avatar {
+    left: 50%;
+    transform: translateX(-20%);
+    top: auto;
+    margin-top: 20px;
+    position: relative; /* bỏ absolute để dễ co giãn */
+    width: 400px;
+    margin: auto;
+  }
+  .avatar__img {
+    width: 150px;
+    height: 180px;
   }
 }
